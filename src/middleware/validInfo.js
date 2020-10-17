@@ -6,15 +6,14 @@ module.exports = (req, res, next) => {
   }
 
   if (req.path === '/register') {
-    console.log(!email.length);
     if (![email, password].every(Boolean)) {
-      return res.status(401).json('Faltam dados.');
+      return res.status(401).json('Preencha todos os campos.');
     } else if (!validEmail(email)) {
       return res.status(401).json('E-mail inválido.');
     }
   } else if (req.path === '/login') {
     if (![email, password].every(Boolean)) {
-      return res.status(401).json('Faltam dados.');
+      return res.status(401).json('Preencha todos os campos');
     } else if (!validEmail(email)) {
       return res.status(401).json('E-mail inválido.');
     }
