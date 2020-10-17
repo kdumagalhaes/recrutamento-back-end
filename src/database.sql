@@ -6,5 +6,3 @@ CREATE TABLE users(
   user_password VARCHAR(255) NOT NULL,
   PRIMARY KEY(user_id)
 );
-
-INSERT INTO users (user_email, user_password) VALUES ('kadu@teste.com', '12345');
