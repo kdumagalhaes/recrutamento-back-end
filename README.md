@@ -28,3 +28,6 @@ npm run dev
 ```
 - Faça o clone do repo: https://github.com/kdumagalhaes/recrutamento-front-end e siga as instruções no README.
 - [Tutorial para instalação do PostgreSQL.](https://www.youtube.com/watch?v=fZQI7nBu32M)
+
+### Requisitos:
+Última versão do Node.
