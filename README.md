@@ -1,6 +1,7 @@
   
 
 # Backend Challenge - nuvemWeb
+
 ![](screencapture-localhost-3000-register-2020-10-17-19_06_43.png)
 
 ## API de autenticação:
@@ -18,6 +19,15 @@ Esta API tem o objetivo de realizar a criação, autenticação, criação das t
 | `jsonwebtoken` | Lib que auxilia na criação do JWT. |
 | `bcrypt` | Lib que auxilia na encriptação da senha do usuário. |
 
+### OBS.:
+- Mantive as mesmas credenciais do banco de dados que constam no boiler plate do desafio, com a diferença que o `dialect` agora é `postgres` e não `mssql`.
+````
+dialect:  'postgres',
+host:  'localhost',
+username:  'sa',
+password:  '123',
+database:  'teste',
+````
 ### Instalação:
 ```
 npm install
@@ -39,11 +49,3 @@ yarn sequelize db:migrate
 
 ### Requisitos:
 - Última versão do Node.
-### OBS.:
-- Mantive as mesmas credenciais do banco de dados que constam no boiler plate do desafio, com a diferença que o `dialect` é `postgres` e não `mssql`.
-````
-dialect:  'postgres',
-host:  'localhost',
-username:  'sa',
-password:  '123',
-database:  'teste',
