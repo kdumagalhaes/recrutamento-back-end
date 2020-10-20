@@ -32,9 +32,6 @@ database:  'teste',
 ```
 npm install
 ```
-```
-npm run dev
-```
 Criação do banco de dados:
 ````
 yarn sequelize db:create
@@ -43,6 +40,10 @@ Criação das tabelas:
 ````
 yarn sequelize db:migrate
 ````
+Rodar aplicação:
+```
+npm run dev
+```
 - Faça o clone do repo: https://github.com/kdumagalhaes/recrutamento-front-end e siga as instruções no README.
 
 - [Tutorial para instalação do PostgreSQL.](https://www.youtube.com/watch?v=fZQI7nBu32M)
