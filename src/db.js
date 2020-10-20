@@ -2,10 +2,10 @@ const Pool = require('pg').Pool
 
 const pool = new Pool({
   user: 'postgres',
-  password: '1234',
+  password: '123',
   host: 'localhost',
   port: 5432,
-  database: 'authchallenge',
+  database: 'teste',
 });
 
 module.exports = pool;
